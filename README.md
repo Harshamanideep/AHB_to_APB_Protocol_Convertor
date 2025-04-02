@@ -40,7 +40,8 @@ version of the system bus.
 
 The overall architecture looks like the following:
 
-![AMBA System]
+![AMBA System](https://github.com/user-attachments/assets/e89b0730-ebce-4e49-a52b-bb01b886f21e)
+
 
 ## Basic Terminology
 
@@ -115,7 +116,8 @@ The bridge unit converts system bus transfers into APB transfers and performs th
 
 The diagram below shows the interface:
 
-![APB Bridge]
+![APB Bridge](https://github.com/user-attachments/assets/8e8d6348-b351-4a9d-8751-542a1c11f741)
+
 
 ## Basic Implementation Tools
 
@@ -149,14 +151,14 @@ is used to generate the APB peripheral select lines.
 
 It consists of a write operation followed by a read operation on the AHB Bus which is successfully mapped to the APB bus according to the interfacing.
 
-![simulation_AHBtoAPB] 
+![simulation](https://github.com/user-attachments/assets/979ecaf0-f945-4397-90ba-c44d915fd30e)
+
 
 # Synthesis Results
 
 RTL Model:
+![RTL_Model](https://github.com/user-attachments/assets/d68cfdc3-cfe9-41ed-aa0f-065cb4c0d2a5)
 
-
-State Machine Viewer:
 
 
 
