@@ -1,9 +1,7 @@
-# AHB to APB Bridge
+# AHB to APB Protocol Convertor
 
 
-
-
-## About the AMBA Buses
+## About the Advanced Microcontroller Bus Architecture
 
 The Advanced Microcontroller Bus Architecture (AMBA) specification defines an
 on-chip communications standard for designing high-performance embedded
@@ -52,10 +50,8 @@ from rising-edge to rising-edge transitions.
 
 #### Bus transfer 
 An AMBA ASB or AHB bus transfer is a read or write operation of a data object, which may take one or more bus cycles. The bus
-transfer is terminated by a completion response from the
-addressed slave.
-An AMBA APB bus transfer is a read or write operation
-of a data object, which always requires two bus cycles.
+transfer is terminated by a completion response from the addressed slave.
+An AMBA APB bus transfer is a read or write operation of a data object, which always requires two bus cycles.
 
 #### Burst operation 
 
@@ -64,9 +60,9 @@ transaction maintains a consistent data width and sequentially accesses an incre
 address increments are determined by the transfer size (byte, halfword, or word). Burst operations are not 
 supported on the APB (Advanced Peripheral Bus).
 
-##  AMBA Signals
+##  Advanced Microcontroller Bus Architecture Signals
 
-### AMBA AHB Signals
+### Advanced High-Performance Bus Signals
 
 
 
