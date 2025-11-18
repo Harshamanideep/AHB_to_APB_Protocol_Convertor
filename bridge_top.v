@@ -1,14 +1,3 @@
-
-// AHB to APG Bridge | Maven Silicon
-//
-//
-//
-// Bridge Top
-// Date:14-06-2022
-//
-// By-Prajwal Kumar Sahu
-
-
 module Bridge_Top(Hclk,Hresetn,Hwrite,Hreadyin,Hreadyout,Hwdata,Haddr,Htrans,Prdata,Penable,Pwrite,Pselx,Paddr,Pwdata,Hreadyout,Hresp,Hrdata);
 
 input Hclk,Hresetn,Hwrite,Hreadyin;
@@ -36,3 +25,4 @@ APB_FSM_Controller APBControl ( Hclk,Hresetn,valid,Haddr1,Haddr2,Hwdata1,Hwdata2
 
 
 endmodule
+
